@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Rating Card</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="card">
+            <div class="submit-page hidde">
+                <div class="img"><img src="./icon-star.svg" alt="logo" class="starimg"></div>
+                <h1 class="card-head">How did we do?</h1><br>
+                <p class="card-body">Please let us know how we did with your support request. All feedback is
+                    appreciated to help us improve our offering!</p><br>
+                <div class="rating-block">
+                    <input type="radio" name="ratings" id="1-star" class="rating" value="1">
+                    <label for="1-star" class="ratinglabel">1</label>
+                    <input type="radio" name="ratings" id="2-star" class="rating" value="2">
+                    <label for="2-star" class="ratinglabel">2</label>
+                    <input type="radio" name="ratings" id="3-star" class="rating" value="3">
+                    <label for="3-star" class="ratinglabel">3</label>
+                    <input type="radio" name="ratings" id="4-star" class="rating" value="4">
+                    <label for="4-star" class="ratinglabel">4</label>
+                    <input type="radio" name="ratings" id="5-star" class="rating" value="5">
+                    <label for="5-star" class="ratinglabel">5</label>
+                </div>
+                <button type="submit" class="submit-btn">SUBMIT</button>
+            </div>
+            <div class="success-page hide">
+                <img src="./illustration-thank-you.svg" alt="logo">
+                <p class="feedback">You selected <span class="stars">5</span> out of 5</p>
+                <h1 class="thanks">Thank You!</h1>
+                <p class="text">We appreciate you taking the time to give a rating. If you ever need more support don't hesitate to get in touch! </p>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+
+</html>
